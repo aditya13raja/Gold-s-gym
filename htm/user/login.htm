@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            background-image: url(../../img/login_reg.jpg);
+            margin: 5% 35% auto 35%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+            * {
+            box-sizing: border-box;
+            }
+
+            .main {
+            padding: 16px;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 20px;
+            }
+
+            input[type=text], input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+            border-radius: 15px;
+            }
+
+            input[type=text]:focus, [type=email]:focus, input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+            }
+
+            .login {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+            border-radius: 15px;
+            }
+
+            .login:hover {
+            opacity: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div class="main">
+        <h2>Login</h2>
+
+        <p>Enter your credintials to login</p>
+
+        <form action="login.php" method="post">
+
+            <label><b>Enter your E-mail/ Mobile number</b>
+                <input type="text" name="name" placeholder="E-mail/Number" required="required" />
+            </label><br />
+
+            <label><b>Password</b>
+                <input type="password" name="password" placeholder="Password" required="required" />
+            </label><br />
+
+            <label><input type="checkbox" name="remember" value="yes"/>Remember me</label><br /><br />
+
+            <button class="login"><b>LOGIN</b></button>
+        </form>
+    </div>
+    </body>
+</html>

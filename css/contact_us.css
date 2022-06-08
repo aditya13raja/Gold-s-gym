@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+
+#heading {
+    text-align: center;
+    font-size: 120px;
+    font-weight: lighter;
+    font-family: 'Audiowide', cursive;
+    color:rgb(41, 229, 20);
+    background-image: url(../img/contact.jpg);
+    height: 300px;
+}
+
+#main {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: rgb(223, 9, 9);
+    text-shadow: rgba(39, 43, 6, 0.514) -2px 2px ;
+}
+
+fieldset {
+	border: 5px solid #232232;
+    background-color: #ddddffb2;
+	border-radius: 9px 15px;
+	padding: 20px;
+	text-align: left;
+	margin: 35px;
+}
+
+legend {background-color: #036151;
+	color: white;
+    font-size: 30px;
+	border: 2px solid #656565;
+	border-radius: 20px;
+	padding: 10px 14px;
+	text-align: center; 
+	text-transform: uppercase;
+}
+
+label , td, p{
+    font-size: 20px;
+    font-weight: 200;
+}
+	
+input {font-size: 20px;
+	color:#322212;
+	background-image: url("Images/28.png");
+	border: 2px solid #342322;
+	border-radius: 6px;
+}
+	
+input:focus {color: #000000; 
+	background-color: #ddddff;
+}
+	
+input:hover {color: #edfded;
+	background-color: #d69cf193;
+}
+
+#submit {
+    margin-left: 30px;
+}
+
+.uparrow {
+    margin-left: 90%;
+    position: sticky;
+    bottom: 10px;
+}

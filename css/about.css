@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+
+#heading {
+    text-align: center;
+    font-size: 120px;
+    font-weight: lighter;
+    font-family: 'Audiowide', cursive;
+    color:rgb(41, 229, 20);
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    height: 300px;
+}
+
+#main {
+    margin: 40px 20% 40px 20%;
+}
+
+
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: rgb(223, 9, 9);
+    text-shadow: rgba(39, 43, 6, 0.514) -2px 2px ;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.uparrow {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}

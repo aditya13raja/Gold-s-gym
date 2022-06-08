@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+     
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider-container{
+     width: 1200px;
+     height: 500px;
+     margin-left:auto;
+     margin-right: auto;
+     overflow: hidden;
+     text-align: center;
+}
+
+.img-container{
+     width: 6000px;
+     height: 500px;
+     position: relative;
+     transition: left 2s;
+     
+     -webkit-transition: left 2s;
+     -moz-transition: left 2s;
+     -o-transition: left 2s;
+}
+
+.slider-img{
+     float: left;
+     margin: 0px;
+     padding: 0px;
+}
+
+.button-container{
+     top: -20px;
+     position: relative;
+}
+
+.slider-button{
+     display: inline-block;
+     height: 10px;
+     width: 10px;
+     border-radius: 5px;
+     background-color: aliceblue;
+}
+
+#slider-img1:target ~ .img-container{
+     left: 0px;
+}
+
+#slider-img2:target ~ .img-container{
+     left: -1200px;
+}
+
+#slider-img3:target ~ .img-container{
+     left: -2400px;
+}
+
+#slider-img4:target ~ .img-container{
+     left: -3600px;
+}
+
+#slider-img5:target ~ .img-container{
+     left: -4800px;
+}
+
+article {
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: 700;
+     display: grid;
+     grid-template-columns: 300px auto 400px;
+}
+
+.left{
+     grid-column: 1/2;
+     margin: 5px;;
+     padding: 20px;
+}
+
+.pkg {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border-radius: 3px;
+     padding: 10px;
+     margin: 5px;
+     background-color: rgba(49, 197, 62, 0.418);
+     border-radius: 5px;
+     text-align: center;
+}
+
+.pkg:hover {
+     background-color: rgba(197, 116, 49, 0.418);
+     color: brown;
+}
+
+.pkg h3 {
+     text-transform: uppercase;
+     color: black;
+}
+
+.pkg p {
+     font-weight: 100;
+}
+
+.main{
+     grid-column: 2/4;
+     margin: 5px;
+     color: rgb(254, 255, 198);
+     border: 2px solid rgb(170, 24, 24);
+     background-image: url(../img/background/weights-exercise-weightlifter-strong-athletic.jpg);
+     background-position: center -200px;
+}
+
+.glassy {
+     background-color: rgba(77, 85, 92, 0.651);
+     padding: 20px;
+}
+
+p b {
+     text-transform: uppercase;
+}
+
+#charge {
+      color: rgb(231, 15, 15);
+      font-weight: bold;
+ }
+
+.main ul {
+     list-style-type: none;
+     padding-left: 15px;
+}
+
+.main ul li {
+     font-size: 16px;
+     color: rgb(85 255 0);
+     padding: 2px;
+     font-weight: bold;
+}
+
+.right{
+     grid-column: 5/6;
+     margin: 5px;;
+     padding: 20px;
+}
+
+a.gallery-img:hover {
+     background-color: rgba(0, 0, 0, 0.493);
+}
+
+.faqs a {
+     color: rgb(44, 3, 3);
+     text-decoration: none;
+     font-weight: 100;
+}
+
+.faqs u {
+     text-transform: uppercase;
+     font-size: 12px;
+}
